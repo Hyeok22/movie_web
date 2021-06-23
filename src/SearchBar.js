@@ -1,7 +1,17 @@
 import React from "react";
+import "./SearchBar.css"
 
-function SearchBox() {
-
+function SearchBar() {
+    return (
+      <div className="searchBar">
+          <input
+              id="pac-input"
+              className="search"
+              type="text"
+              placeholder="..."
+          />
+      </div>
+    );
 }
 
-export default SearchBox;
+export default SearchBar;

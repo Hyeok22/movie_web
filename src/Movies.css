@@ -1,0 +1,48 @@
+.movie {
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.movie img {
+    margin-top: 10px;
+    margin-right: 10px;
+
+    width : 100%;
+    max-width: 150px;
+}
+
+.movie_data {
+    padding: 0;
+    margin-top: 11px;
+    vertical-align: top;
+}
+
+.movie_title {
+    width: 340px;
+    margin: 0;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.movie_year {
+    margin: 0;
+
+    opacity: 60%;
+}
+
+.movie_rating {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.movie_summary {
+    height: 160px;
+    margin: 10px;
+
+    overflow: scroll;
+}
