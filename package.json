@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "npm run build &&gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -23,6 +24,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://github.com/Hyeok22/movie_web",
   "browserslist": {
     "production": [
       ">0.2%",
